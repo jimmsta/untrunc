@@ -53,6 +53,10 @@ Build untrunc
 
     g++ -o untrunc file.cpp main.cpp track.cpp atom.cpp mp4.cpp -I./libav-0.8.7 -L./libav-0.8.7/libavformat -lavformat -L./libav-0.8.7/libavcodec -lavcodec -L./libav-0.8.7/libavutil -lavutil -lpthread -lz
 
+## Windows package
+
+Install MSYS2 on your system in order to compile a binary that is compatible with Windows x64. << this is what this fork is for.
+
 ## Arch package
 
 Jose1711 kindly provides an arch package here: https://aur.archlinux.org/packages/untrunc-git/
